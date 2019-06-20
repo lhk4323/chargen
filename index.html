@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="hw4.css">
+    </head>
+    <body>
+        <div class = "charG"> 
+            <div class = "column"><img id="charHold" align="right" width = "288" height = "250" src="https://res.cloudinary.com/dgkosrbms/image/upload/v1552893842/onex.jpg"></div>
+        </div>
+            <div class = "charG" id = "cname" >Your name</div>
+            <div class = "charG" id = "cage">Your age</div>
+            <div class = "charG" id = "crace">Your race</div>
+            <div class = "charG" id = "cclass">Your class</div>
+            <div class = "charG" id = "cstats">Your stats and attributes</div>
+            <div class = "charG" id = "cskills">Your skills </div>
+            <div class = "charG" id = "crbg">Your racial background</div>
+            <div class = "charG" id = "ccbg">Your class background</div>
+        <hr>
+            <p id = "story">Tell us a little bit more about yourself. Do you come from</p>
+            <div class="wrapper">
+                <button onclick="lifeevent1('a poor')" id = "e1" value="Poor">A poor family</button>
+                <button onclick="lifeevent1('a middle class')" id = "e2" value="Mid">A middle class family</button>
+                <button onclick="lifeevent1('an upper class') " id = "e3" value="Upper">An upper class family</button>
+            </div>
+            <div id = "e1res"></div>
+            <hr width ="90%">
+            <p id = "family">Is your family</p>
+                <div class="wrapper">
+                    <button onclick="lifeevent2('safe')" id = "e4">Safe and sound</button>
+                    <button onclick="lifeevent2('in danger')" id = "e5">On the run from danger</button>
+                    <button onclick="lifeevent2('deceased') " id = "e6">Deceased</button>
+                </div>
+            <div id = "e2res"></div>
+            <hr width ="90%">
+            <p id = "item">What is your most prized posession?</p>
+<!-- Originally there were 9 items here, but I cut the options to 3 due to time constraints -->
+                <div class="wrapper">
+                    <button onclick="lifeevent3('photo')" id = "p1">A photo</button>
+                    <button onclick="lifeevent3('letter')" id = "p2">A letter</button>
+                    <button onclick="lifeevent3('book') " id = "p3">A book</button>
+                </div>
+            <div id = "e3res"></div>
+            <hr width ="90%">
+            <p id = "self">What do you value most?</p>
+<!-- Originally there were 8 items here, but I cut the options to 3 due to time constraints -->
+                <div class="wrapper">
+                    <button onclick="lifeevent4('Money')" id = "v1">Power</button>
+                    <button onclick="lifeevent4('Love')" id = "v2">Love</button>
+                    <button onclick="lifeevent4('Vengeance') " id = "v3">Vengeance</button>
+                </div>
+            <div id = "e4res"></div>
+            <br>
+            <hr width ="75%">
+            <br>
+        <div class="wrapper"><button onclick="ResetBG('redobg')" id = "r1">Click here to redo your background</button></div>
+            <br>
+            <br>
+        <div class="wrapper"><audio controls loop>
+            <source src="https://res.cloudinary.com/dgkosrbms/video/upload/v1552897726/artificial-intelligence_fypHprHd.mp3">
+Your browser does not support the audio element.
+            </audio>
+        <br>
+        <button onclick="reloader()">Reload page</button>
+        </div>
+</body>
+    <script src="hw4.js"></script>
+    
+</html>

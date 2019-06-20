@@ -1,0 +1,36 @@
+
+body {
+  border: groove;
+  border-color: crimson;
+  border-radius: 25px;
+  margin: 50px;
+  padding: 25px 50px;
+  background-color: black;
+  background-image:url(https://res.cloudinary.com/dgkosrbms/image/upload/v1552891126/cyberpunk_bg_1080p.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  font: "Lucida Console", Monaco, monospace;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 16px;
+}
+
+.charG
+{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+  
+}
+
+.wrapper {
+    text-align: center;
+}
+
